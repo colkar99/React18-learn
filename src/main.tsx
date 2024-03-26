@@ -27,8 +27,8 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     <QueryClientProvider client={client}>
       <ChakraProvider theme={theme}>
       <ColorModeScript initialColorMode={theme.config.initialColorMode} />
-        {/* <App /> */}
-        <TodoLists/>
+        <App />
+        {/* <TodoLists/> */}
         {/* <PostList/> */}
         <ReactQueryDevtools/>
       </ChakraProvider>
